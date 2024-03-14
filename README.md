@@ -29,6 +29,10 @@ You can find ur calender's ID in Calender Settings and sharing（設定和共用
 
 Copy and replace your calendar ID into the code.
 
+> Set a time trigger on the App script page so that he can synchronize the calendar regularly.
+
+> 記得在 App script 頁面設置一個時間觸發器，以定期同步日曆。
+
 ### Others reference
 * Google Calender API: https://developers.google.com/calendar/api/
 * Google Apps Script: https://developers.google.com/apps-script/
