@@ -13,7 +13,7 @@ The code can be used to sync calendars for different purposes, such as:
 •	Merging personal and work calendars
 •	Merging calendars for different time zones
 
-## 可以讓多個 Google 日曆的活動，同步到一個日曆。
+## [中文介紹]可以讓多個 Google 日曆的活動，同步到一個日曆。
 ### 功能：
 * 支援多個日曆整合
 * 透過檢查活動，來避免事件被重複新增
