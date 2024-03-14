@@ -1,7 +1,8 @@
 # google-calendar-merge
 Sync events from multiple Google Calendars to one destination calendar.
 
-Demo Code: https://script.google.com/d/1wny1iM0rwSdP6Y59dkGchSPXwMtS2wt9v8sd2ljKDyygx_UutbNoNSdJ/edit?usp=sharing
+* You should execute the code in [Google Apps Script](https://script.google.com/home)
+* Demo Code: https://script.google.com/d/1wny1iM0rwSdP6Y59dkGchSPXwMtS2wt9v8sd2ljKDyygx_UutbNoNSdJ/edit?usp=sharing
 
 The code is a Google Calendar sync script that merges events from multiple source calendars into a single destination calendar.
 Here are the steps on how the code works:
@@ -25,7 +26,7 @@ The code can be used to sync calendars for different purposes, such as:
 * 為您的團隊或組織創建主日曆
 
 ## Settings Guide
-You should execute the code in [Google Apps Script](https://script.google.com/home)https://script.google.com/home
+You should execute the code in [Google Apps Script](https://script.google.com/home)
 
 You can find ur calender's ID in Calender Settings and sharing（設定和共用），On the "Calendar settings" page, scroll down and you will see the Integrate calendar block. The **Calendar ID** is below the Integrate calendar block.
 
