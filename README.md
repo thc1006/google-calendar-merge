@@ -1,6 +1,8 @@
 # google-calendar-merge
 Sync events from multiple Google Calendars to one destination calendar.
 
+Demo Code: https://script.google.com/d/1wny1iM0rwSdP6Y59dkGchSPXwMtS2wt9v8sd2ljKDyygx_UutbNoNSdJ/edit?usp=sharing
+
 The code is a Google Calendar sync script that merges events from multiple source calendars into a single destination calendar.
 Here are the steps on how the code works:
 1.	The code first gets the IDs of the source and destination calendars.
