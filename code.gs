@@ -36,9 +36,9 @@ function syncCalendars() {
 
       if (!isEventExist) 
       {
-        // 如果event不存在，則在目標日曆中創建new event；the title of new event 僅標註為"忙碌"
+        // 如果event不存在，則在目標日曆中創建new event；the title of new event 僅標註為"Busy"
         // If the event does not exist, create a new event in the target calendar; the title of the new event is only marked as "busy".
-        targetCalendar.createEvent('忙碌', startTime, endTime); 
+        targetCalendar.createEvent('Busy', startTime, endTime); 
       }
     });
   });
