@@ -35,7 +35,9 @@ You can find ur calender's ID in Calender Settings and sharing（設定和共用
 
 > （記得在 App script 頁面設置一個時間觸發器，以定期同步日曆。）
 > 
-> Set a time trigger on the App script page so that he can synchronize the calendar regularly. 
+> Set a time trigger on the App script page so that he can synchronize the calendar regularly.
+
+> Remember to change the privacy settings of the new calendar (set to public) so that others can see it.
 
 ### Others reference
 * Google Calender API: https://developers.google.com/calendar/api/
