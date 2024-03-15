@@ -10,9 +10,10 @@ Here are the steps on how the code works:
 2.	It then gets the events from the source calendars for the next 30 days.
 3.	For each event, the code checks if it already exists in the destination calendar.
 4.	If the event does not exist, the code creates a new event in the destination calendar titled "Busy".
+
 The code can be used to sync calendars for different purposes, such as:
-•	Merging personal and work calendars
-•	Merging calendars for different time zones
+* Merging personal and work calendars.
+* Merging calendars for different time zones.
 
 ## [中文介紹]可以讓多個 Google 日曆的活動，同步到一個日曆。
 ### 功能：
@@ -26,15 +27,15 @@ The code can be used to sync calendars for different purposes, such as:
 * 為您的團隊或組織創建主日曆
 
 ## Settings Guide
-You should execute the code in [Google Apps Script](https://script.google.com/home)
+1. Open [Google Apps Script](https://script.google.com/home) create a new project.
+2. Copy the [Demo Code](https://script.google.com/d/1wny1iM0rwSdP6Y59dkGchSPXwMtS2wt9v8sd2ljKDyygx_UutbNoNSdJ/edit?usp=sharing) and paste on ur new project page.
+3. Replace with your Calender ID in the code, then save and execute it. :)
 
-You can find ur calender's ID in Calender Settings and sharing（設定和共用），On the "Calendar settings" page, scroll down and you will see the Integrate calendar block. The **Calendar ID** is below the Integrate calendar block.
+You can find ur calender's ID in Calender Settings and sharing（設定和共用），On the "Calendar settings" page, scroll down and you will see the Integrate calendar block（整合日曆）. The **Calendar ID** is below the Integrate calendar block.
 
-Copy and replace your calendar ID into the code.
-
-> Set a time trigger on the App script page so that he can synchronize the calendar regularly.
-
-> 記得在 App script 頁面設置一個時間觸發器，以定期同步日曆。
+> （記得在 App script 頁面設置一個時間觸發器，以定期同步日曆。）
+> 
+> Set a time trigger on the App script page so that he can synchronize the calendar regularly. 
 
 ### Others reference
 * Google Calender API: https://developers.google.com/calendar/api/
